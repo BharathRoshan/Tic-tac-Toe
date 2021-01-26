@@ -1,10 +1,11 @@
 /* eslint-disable arrow-body-style */
-import React from 'react'
-
-const Square = ({value}) => {
+import React from 'react';
 
 
-    return <button type="button">{ value }</button>;
+const Square = ({value, children}) => {
+
+
+    return <button type="button" className = "square">{ value }</button>;
 }
 
 export default Square
